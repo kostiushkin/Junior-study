@@ -1,0 +1,18 @@
+name: Study Junior
+type: theme
+description: 'Classy custom sub-theme'
+package: themes
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+base theme: classy
+
+libraries:
+  - study/global
+
+stylesheets-remove:
+
+regions:
+  header: 'Header'
+  content: 'Main Content'
+  footer: 'Footer'
